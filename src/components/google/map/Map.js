@@ -37,8 +37,8 @@ class Map extends Component {
 
     render() {
         const style = {
-            width: '500px',
-            height: '500px'
+            width: '100%',
+            height: '600px'
         };
         return (
             <div ref='map' style={style}>

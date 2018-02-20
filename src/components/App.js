@@ -8,9 +8,17 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Header />
-                <LeftMenu />
-                <MapContainer />
+                <Header/>
+                <div className="container-fluid">
+                    <div className={"row"}>
+                        <div className={"col-md-2"}>
+                            <LeftMenu/>
+                        </div>
+                        <div className={"col-md-10"}>
+                            <MapContainer/>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
